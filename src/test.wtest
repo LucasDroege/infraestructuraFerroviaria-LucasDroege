@@ -1,0 +1,9 @@
+import example.*
+test "cuantos pasajeros puede llevar la formacion" {
+	const vagon1 = new VagonDePasajeros(ancho = 10, cantidadDePasajeros = 45, largo = 40)
+	const vagon2 = new VagonDePasajeros(ancho = 11, cantidadDePasajeros = 45, largo = 30)
+	formacion.agregarVagon(vagon1)
+	formacion.agregarVagon(vagon2)
+	assert.equals()
+
+}
